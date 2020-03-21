@@ -1,5 +1,7 @@
 # cstd-web
-Never roll your own paste service
+### Never roll your own paste service
+
+-------------------------------------------------------------------------------------------
 
 This is a very simple paste site using [pstd](https://github.com/fstd/pstd) under the hood.
 
