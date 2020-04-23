@@ -12,7 +12,7 @@ if (isset($_POST['copy-buf']))
     $buffile = fopen("buffer.txt", "w") or die("Unable to open file!");
     fwrite($buffile, $_POST['copy-buf']);
     fclose($buffile);
-    $url = shell_exec('cstd buffer.txt');
+    $url = shell_exec('/usr/local/bin/cstd buffer.txt');
     echo "<a href=\"$url\">$url</a><br>";
 }
 ?>
