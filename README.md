@@ -34,4 +34,4 @@ cd /var/www/html
 git clone https://github.com/ChillerDragon/cstd-web
 ```
 
-Connect to localhost:8000 in your browser and insert a paste.
+Connect to localhost:8000 (php -S) or localhost:80 (apache2) in your browser and start pasting.
